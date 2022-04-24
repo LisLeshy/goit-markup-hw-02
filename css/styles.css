@@ -1,6 +1,35 @@
 body{
     background-color: #E5E5E5;
 }
+.nav-links{color: #212121;} 
+.nav-links:hover{color: #2196F3;}
+.nav-links:focus{color: #2196F3;}
+
+.active-links{color: #757575;}
+.active-links:hover{color: #2196F3;}
+.active-links:focus{color: #2196F3;}
+
+.active-btn{
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.active-btn:hover {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+.active-btn:focus:{
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+
+
+.accent-logo {color: #2196F3;}
+.header-logo {color: #000000;}
+.footer-logo {color: #FFFFFF;}
+.activ-link {color: #2196F3;}
+
+
+
 
 /* цвет основного текста #212121*/
 /* цвет второстепенного текста #757575 */
@@ -11,6 +40,4 @@ body{
 /* цвет дополнтительного фона #F5F4FA */
 /* цвет фона хедера #FFFFFF */
 /* цвет фона футера #2F303A */
-.accent-logo{color:#2196F3;}
-.basic-logo{color:#000000;}
-.activ-link{color:#2196F3;}
+
