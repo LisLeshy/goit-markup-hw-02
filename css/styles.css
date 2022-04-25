@@ -1,38 +1,82 @@
-body{
-    background-color: #E5E5E5;
+:root {
+    --title-text-color: #212121;
+    --primery-text-color: #757575;
+    --accent-test-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --main-backgound-color: #E5E5E5;
+    --team-backgound-color: #F5F4FA;
+    --footer-backgound-color: #2F303A;
+    --heder-logo-color: #000000;
+    
+
 }
-.nav-links{color: #212121;} 
-.nav-links:hover{color: #2196F3;}
-.nav-links:focus{color: #2196F3;}
-
-.active-links{color: #757575;}
-.active-links:hover{color: #2196F3;}
-.active-links:focus{color: #2196F3;}
-
-.active-btn{
-    background-color: #F5F4FA;
-    color: #212121;
+body {
+    background-color:
+     var(--main-backgound-color);
+     color: var(--primery-text-color);
+     }
+.list { list-style: none;
 }
-.active-btn:hover {
-    background-color: #2196F3;
-    color:#FFFFFF;
-}
-.active-btn:focus:{
-    background-color: #2196F3;
-    color:#FFFFFF;
+/* навигация */
+.nav-links {
+    color:var(--title-text-color);
+} 
+.nav-links:hover,
+.nav-links:focus,
+.nav-links:active {
+   color:var(--accent-color);
 }
 
 
-.accent-logo {color: #2196F3;}
-.header-logo {color: #000000;}
-.footer-logo {color: #FFFFFF;}
-.activ-link {color: #2196F3;}
+.active-links {
+    color: var(--primery-text-color);
+}
+.active-links:hover, 
+.active-links:focus,
+.active-links:active {
+    color: var(--accent-color);
+}
+/* герой */
+.hero-title {
+    color: var(--accent-test-color);
+}
+.hero-button {
+    color: var(--accent-test-color);
+    background: var(--accent-color);
+}
+
+/* секции */
+.section-title {
+    color: var(--title-text-color);
+}
+.benefits .subtitle {
+    color: var(--title-text-color);
+}
+.team .member {
+    color: var(--title-text-color);
+}
+/* клопки порфолио */
+.active-btn {
+    background-color:var(--team-backgound-color);
+    color: var(--title-text-color);
+}
+.active-btn:hover,
+.active-btn:focus,
+.active-btn:active {
+    background-color: var(--accent-color);
+    color:var(--accent-test-color);
+}
+
+.accent-logo {color: var(--accent-color);}
+.header-logo {color: var(--heder-logo-color);}
+.footer-logo {color: var(--accent-test-color);}
 
 
 
 
-/* цвет основного текста #212121*/
-/* цвет второстепенного текста #757575 */
+
+/* цвет второстепенного текста #212121*/
+/* цвет заголовков текста #757575 */
 /* цвет акцента #2196F3 */
 /* цвет белого текста #FFFFFF */
 /* цвет черной части лого в хедере #000000 */
