@@ -7,6 +7,7 @@
     --team-backgound-color: #F5F4FA;
     --footer-backgound-color: #2F303A;
     --heder-logo-color: #000000;
+    --adress-color: rgba(255, 255, 255, 0.6)
     
 
 }
@@ -16,6 +17,18 @@ body {
      color: var(--primery-text-color);
      }
 .list { list-style: none;
+}
+/* лого */
+.accent-logo {
+    color: var(--accent-color);
+}
+
+.header-logo {
+    color: var(--heder-logo-color);
+}
+
+.footer-logo {
+    color: var(--accent-test-color);
 }
 /* навигация */
 .nav-links {
@@ -49,11 +62,27 @@ body {
 .section-title {
     color: var(--title-text-color);
 }
+/* Преимущества */
 .benefits .subtitle {
     color: var(--title-text-color);
 }
+/* Команда */
+.team {
+    background-color: var(--team-backgound-color);
+}
 .team .member {
     color: var(--title-text-color);
+}
+
+/* футер */
+.footer {
+    background-color: var(--footer-backgound-color);
+}
+.adress .text {
+    color: var(--accent-test-color);
+}
+.adress .link {
+    color: var(--adress-color);
 }
 /* клопки порфолио */
 .active-btn {
@@ -66,10 +95,13 @@ body {
     background-color: var(--accent-color);
     color:var(--accent-test-color);
 }
-
-.accent-logo {color: var(--accent-color);}
-.header-logo {color: var(--heder-logo-color);}
-.footer-logo {color: var(--accent-test-color);}
+/* работы */
+.work-title {
+    color: var(--title-text-color);
+}
+.work-text {
+    color: var(--primery-text-color);
+}
 
 
 
