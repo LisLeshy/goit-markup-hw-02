@@ -35,11 +35,12 @@ body {
     color:var(--title-text-color);
 } 
 .nav-links:hover,
-.nav-links:focus,
-.nav-links:active {
-   color:var(--accent-color);
+.nav-links:focus {
+   color: var(--accent-color);
 }
-
+.nav-links.current {
+    color: var(--accent-color);
+}
 
 .active-links {
     color: var(--primery-text-color);
