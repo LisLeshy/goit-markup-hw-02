@@ -19,7 +19,7 @@ body {
 .list { list-style: none;
 }
 /* лого */
-.accent-logo {
+.logo-link {
     color: var(--accent-color);
 }
 
