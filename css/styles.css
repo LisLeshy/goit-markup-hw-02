@@ -113,6 +113,7 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .benefits .text {
     font-size: 14px;
@@ -122,6 +123,9 @@ text-decoration: none;
 /* Команда */
 .team {
     background-color: var(--team-backgound-color);
+}
+.team .item {
+    background: var(--primary-backgound-color);
 }
 .team .member {
     color: var(--title-text-color);
